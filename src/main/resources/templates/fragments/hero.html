@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="hero-section">
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-greeting">Hi there, I'm</div>
+                <h1 class="hero-title"><span class="gradient-text">Nakesh Sharma</span></h1>
+                <h2 class="hero-subtitle">Backend Developer, Java Enthusiast & Problem Solver</h2>
+                <p class="hero-description">
+                    Passionate about backend development and building impactful tech solutions using Java and Spring Boot. I enjoy solving real-world problems, working with modern frameworks, and growing through code and collaboration.<br>
+                    <span style="font-weight: 500;">Based in Hyderabad, India. Final year B.Tech IT @ Manipal University Jaipur.</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Get In Touch
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="tel:+918433255984" class="social-link">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="mailto:nakeshsharma78@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nakeshsharma/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/nakeshsharma" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!-- Add other profiles if needed, such as LeetCode/HackerRank/GeeksforGeeks -->
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-visual-inner">
+                    <div class="hero-visual-frame">
+                        <img src="/images/profile.png" alt="Profile" style="width: 90%; height: 90%; object-fit: cover; border-radius: 15px;">
+                    </div>
+                    <div class="hero-visual-frame"></div>
+                    <div class="hero-visual-frame"></div>
+                </div>
+                <div class="hero-stats stats-1">
+                    <div class="hero-stats-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Software Intern</div>
+                        <div class="hero-stats-value">EPAM Systems</div>
+                    </div>
+                </div>
+                <div class="hero-stats stats-2">
+                    <div class="hero-stats-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Education</div>
+                        <div class="hero-stats-value">Manipal University Jaipur</div>
+                    </div>
+                </div>
+                <div class="hero-stats stats-3">
+                    <div class="hero-stats-icon">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Achievements</div>
+                        <div class="hero-stats-value">Dean’s List, 2×NPTEL Certs</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-indicator-line">
+                <div class="scroll-indicator-dot"></div>
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>
