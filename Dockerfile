@@ -1,5 +1,6 @@
 # Use a lightweight Java runtime as the base image
-FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:21-jre-jammy
+
 
 # Set the working directory inside the container
 WORKDIR /app
